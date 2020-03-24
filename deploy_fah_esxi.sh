@@ -26,6 +26,7 @@ FAH_DEBUG="True"
 FAH_USERNAME="lamw"
 FAH_PASSKEY="e6cf014f62ba0f60e6cf014f62ba0f60"
 FAH_MODE="light"
+FAH_TEAM="52737"
 
 ### DO NOT EDIT BEYOND HERE ###
 
@@ -51,6 +52,7 @@ FAH_MODE="light"
     --prop:guestinfo.fah_username=${FAH_USERNAME} \
     --prop:guestinfo.fah_passkey=${FAH_PASSKEY} \
     --prop:guestinfo.fah_mode=${FAH_MODE} \
+    --prop:guestinfo.fah_team=${FAH_TEAM} \
     --prop:guestinfo.debug=${FAH_DEBUG} \
     "${FAH_OVA}" \
     "vi://${DEPLOYMENT_TARGET_USERNAME}:${DEPLOYMENT_TARGET_PASSWORD}@${DEPLOYMENT_TARGET_ADDRESS}/"
