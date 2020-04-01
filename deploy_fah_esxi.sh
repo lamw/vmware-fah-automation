@@ -27,6 +27,7 @@ FAH_USERNAME="lamw"
 FAH_PASSKEY="e6cf014f62ba0f60e6cf014f62ba0f60"
 FAH_MODE="light"
 FAH_TEAM="52737"
+FAH_DEPLOYMENT_SIZE="medium"
 
 ### DO NOT EDIT BEYOND HERE ###
 
@@ -37,6 +38,7 @@ FAH_TEAM="52737"
     --sourceType=OVA \
     --allowExtraConfig \
     --diskMode=thin \
+    --deploymentOption="${FAH_DEPLOYMENT_SIZE}" \
     --numberOfCpus:*=${FAH_CPU_COUNT} \
     --name="${FAH_NAME}" \
     --net:"VM Network"="${FAH_NETWORK}" \
